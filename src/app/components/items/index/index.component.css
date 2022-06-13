@@ -1,0 +1,6 @@
+.item-cards {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin-right: 10vw;
+  margin-left: 10vw;
+}

@@ -1,0 +1,23 @@
+.item-card {
+  /* width: 20rem; */
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  border-radius: 5px;
+  margin: 10px;
+  background-color: #fafafa;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.09);
+}
+
+.delete-button {
+  margin-bottom: 1.5rem;
+  background-color: lightcoral;
+  border: none;
+  font-size: 1rem;
+  height: 1.75rem;
+  border-radius: 5px;
+}

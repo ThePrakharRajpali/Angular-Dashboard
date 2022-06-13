@@ -1,0 +1,19 @@
+<div class="container__center">
+    <div class="item-form">
+        <div class="form__input">
+            <label for="id">Id: </label> <br>
+            <input type="text" id="id" [(ngModel)]="id">
+        </div>
+        <div class="form__input">
+            <label for="name">Name: </label><br>
+            <input type="text" id="name" [(ngModel)]="name">
+        </div>
+        <div class="form__input">
+
+            <label for="rate">Rate: </label><br>
+            <input type="number" id="rate" [(ngModel)]="rate">
+        </div>
+
+        <button (click)="onSubmit()">Submit</button>
+    </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="order-card">
+
+    {{order?.id}}
+    <br>
+    {{order?.user}}
+    <br>
+    <span *ngFor="let item for order?.items">
+        {{item.name}} - {{item.rate}} <br>
+    </span>
+</div>

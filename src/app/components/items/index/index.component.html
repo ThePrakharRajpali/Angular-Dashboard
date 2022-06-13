@@ -1,0 +1,3 @@
+<div class="item-cards">
+    <app-item-card *ngFor="let item of items" [item]="item" (deleteItem)="deleteItem($event)"></app-item-card>
+</div>
